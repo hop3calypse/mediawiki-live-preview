@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#editor,
+#preview {
+    flex: 1;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#editor {
+    background: #f9f9f9;
+    resize: vertical;
+    height: 40%;
+}
+
+#preview {
+    border-top: 2px solid #ddd;
+    overflow: auto;
+    height: 60%;
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+a:link,
+a:visited,
+a:hover a:active {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    width: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    width: 100%;
+    background-color: #444;
+    border-bottom: solid #FA3441;
+    font-size: 12px;
+    color: #fff;
+}
+
+header a:link,
+header a:hover,
+header a:visited,
+header a:active {
+    color: #fff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#menu-items {
+    display: flex;
+}
+
+#reset-button {
+    margin-left: 16px;
+}
+
+#copy-button {
+    margin-left: 16px;
+}
+
+#cheatsheet {
+    margin-left: 16px;
+}
+
+header input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: 0px;
+}
+
+#inspiration {
+    padding-right: 32px;
+}
+
+#inspiration a {
+    display: block;
+    text-align: center;
+}
+
+#inspiration img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 16px;
+    margin-bottom: 2px;
+}
+
+#github {
+    padding-right: 32px;
+}
+
+#github img {
+    display: block;
+    width: 16px;
+}
+
+#github a {
+    display: block;
+    width: 16px;
+}
